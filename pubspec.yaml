@@ -1,0 +1,129 @@
+name: yafsa
+description: "Yet Another Flutter Showcase App"
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  dio: ^5.2.0
+  json_annotation: ^4.4.0
+  chucker_flutter: ^1.8.3
+  get_it: ^7.2.0
+  fpdart: ^1.1.1
+  flutter_native_splash: ^2.4.4
+  go_router: ^7.1.1
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.5
+  smooth_page_indicator: ^1.2.0+3
+  flutter_svg: ^1.0.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.0.13
+  flutter_multi_select_items: ^0.4.3
+  url_launcher: ^6.3.1
+  shimmer: ^3.0.0
+
+  intl: any
+  provider: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.1.8
+  json_serializable: ^6.9.0
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/svg/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Montserrat-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Montserrat-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Montserrat-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Montserrat-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Montserrat-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Rubik-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Rubik-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Rubik-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Rubik-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Rubik-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Rubik-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Rubik-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Rubik-Regular.ttf
+        - asset: assets/fonts/Rubik-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Rubik-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+flutter_intl:
+  enabled: true
