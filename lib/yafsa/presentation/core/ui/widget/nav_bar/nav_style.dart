@@ -1,0 +1,4 @@
+enum NavStyle {
+  google,
+  oldSchool,
+}
