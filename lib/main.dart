@@ -34,7 +34,7 @@ void setupLocator() {
 void setupSplash() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
-  await Future.delayed(const Duration(seconds: 5));
+  await Future.delayed(const Duration(seconds: 7));
   FlutterNativeSplash.remove();
 }
 
